@@ -91,11 +91,13 @@ The project is designed for **stakeholder demos, internal feedback, and iteratio
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-
+```
 ###Admin UI
+```bash
 cd admin-ui
 npm install
 npm run dev
+```
 
 ###Admin UI runs on:
 http://localhost:3000
